@@ -1,3 +1,4 @@
+//A quick optimisation would be && instead of % as 32 is 2 to the power of 5
 int lengthOfLastWord(char * s)
 {
     if (strlen(s) == 1)
